@@ -1,0 +1,24 @@
+@layer components {
+  .card-gradient-border {
+    background-color: #00AEEF3D;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source:
+      linear-gradient(146.58deg, #00AEEF 0.86%, rgba(8, 34, 53, 0) 50%),
+      linear-gradient(326.95deg, #00AEEF 0.69%, rgba(8, 34, 53, 0) 66.77%);
+  }
+
+  
+}
+
+.drop {
+  color:white;
+}
+.drop:hover {
+  color: #00AEEF;
+}
+
+
+
+
+
